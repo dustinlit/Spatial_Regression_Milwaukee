@@ -63,7 +63,7 @@ Key steps included:
 Because the OLS residuals exhibited spatial dependence, a spatial regression model was required.
 
 <p align="center">
-  <img src="Local_M.png" width="820">
+  <img src="Local_M.png" width="620">
 </p>
 
 ---
@@ -81,7 +81,7 @@ This model improves on OLS by incorporating a spatial autoregressive term:
 - Provides more reliable coefficient estimates  
 
 <p align="center">
-  <img src="lag_residuals.png" width="820">
+  <img src="lag_residuals.png" width="520">
 </p>
 
 ---
@@ -92,9 +92,12 @@ The final section of the report interprets the regression equations and the role
 Although the PDF contains placeholders for equations, the structure indicates:
 
 - A standard OLS linear model  
-- A spatial‑lag model of the form:  
-  **Price = ρW·Price + βX + ε**  
-- Comparison of model performance and spatial dependence parameters  
+
+<p align="center">
+  <img src="equation.jpg" width="520">
+</p>
+
+
 
 ---
 
